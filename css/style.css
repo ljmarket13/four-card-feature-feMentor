@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   --Red: hsl(0, 78%, 62%);
+   --Cyan: hsl(180, 62%, 55%);
+   --Orange: hsl(34, 97%, 64%);
+   --Blue: hsl(212, 86%, 64%);
+   --Very-Dark-Blue: hsl(234, 12%, 34%);
+   --Grayish-Blue: hsl(229, 6%, 66%);
+   --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+   font-family: "Poppins", sans-serif;
+   font-size: 15px;
+   background-color: var(--Very-Light-Gray);
+}
+
+h1 {
+   font-weight: 200;
+}
+
+h2,
+h3 {
+   font-weight: 400;
+	 color: var(--Very-Dark-Blue);
+	 
+}
+
+p {
+	padding: 20px 0;
+	color: var(--Grayish-Blue);
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+}
+
+.top-content {
+   text-align: center;
+   max-width: 430px;
+   margin: 30px auto;
+}
+
+.box {
+   position: relative;
+   width: 400px;
+   height: 250px;
+   margin: 0 auto 20px;
+   padding: 30px;
+   background-color: white;
+   box-shadow: 5px 10px 8px #bebebe;
+   border-radius: 5px;
+}
+
+img {
+   position: absolute;
+   bottom: 20px;
+   right: 20px;
+}
+
+.supervisor {
+   border-top: 3px solid var(--Cyan);
+}
+
+.team-builder {
+   border-top: 3px solid var(--Red);
+}
+
+.karma {
+   border-top: 3px solid var(--Orange);
+}
+
+.calculator {
+   border-top: 3px solid var(--Blue);
+}
+
+.attribution {
+   font-size: 11px;
+   text-align: center;
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
